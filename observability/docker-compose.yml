@@ -1,0 +1,169 @@
+# Self-hosted Langfuse v3 for the course trace store (Lecture 2.3).
+#
+# This file follows the shape of the official Langfuse docker compose:
+# https://github.com/langfuse/langfuse/blob/main/docker-compose.yml
+# (web + worker, Postgres for transactional state, ClickHouse for traces,
+# Redis for queues, MinIO for event blobs). If a service fails to start,
+# diff against the official file; Langfuse occasionally adds required env
+# vars between minor versions.
+#
+# Everything below uses fixed dev credentials so the course setup is one
+# command. Do not reuse any of these values outside localhost.
+#
+# Start:  docker compose -f observability/docker-compose.yml up -d
+# Login:  http://localhost:3000  (student@example.com / cartwheel-dev-pass)
+# The LANGFUSE_INIT_* block pre-creates the org, project, and API keys on
+# first boot, and those keys match .env.example, so tracing works with no
+# clicking around.
+#
+# ClickHouse is reachable from the host at localhost:8123 (HTTP) and
+# localhost:9002 (native) for the Module 2 capstone SQL work:
+#   docker compose -f observability/docker-compose.yml exec clickhouse \
+#     clickhouse-client --user clickhouse --password clickhouse
+
+services:
+  langfuse-worker:
+    image: langfuse/langfuse-worker:3
+    restart: always
+    depends_on: &langfuse-depends-on
+      postgres:
+        condition: service_healthy
+      minio:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      clickhouse:
+        condition: service_healthy
+    ports:
+      - "127.0.0.1:3030:3030"
+    environment: &langfuse-shared-env
+      DATABASE_URL: postgresql://postgres:postgres@postgres:5432/postgres
+      SALT: cartwheel-dev-salt
+      # Dev-only. Generate your own for anything shared: openssl rand -hex 32
+      ENCRYPTION_KEY: "0000000000000000000000000000000000000000000000000000000000000000"
+      TELEMETRY_ENABLED: "false"
+      CLICKHOUSE_MIGRATION_URL: clickhouse://clickhouse:9000
+      CLICKHOUSE_URL: http://clickhouse:8123
+      CLICKHOUSE_USER: clickhouse
+      CLICKHOUSE_PASSWORD: clickhouse
+      CLICKHOUSE_CLUSTER_ENABLED: "false"
+      LANGFUSE_S3_EVENT_UPLOAD_BUCKET: langfuse
+      LANGFUSE_S3_EVENT_UPLOAD_REGION: auto
+      LANGFUSE_S3_EVENT_UPLOAD_ACCESS_KEY_ID: minio
+      LANGFUSE_S3_EVENT_UPLOAD_SECRET_ACCESS_KEY: miniosecret
+      LANGFUSE_S3_EVENT_UPLOAD_ENDPOINT: http://minio:9000
+      LANGFUSE_S3_EVENT_UPLOAD_FORCE_PATH_STYLE: "true"
+      LANGFUSE_S3_EVENT_UPLOAD_PREFIX: "events/"
+      LANGFUSE_S3_MEDIA_UPLOAD_BUCKET: langfuse
+      LANGFUSE_S3_MEDIA_UPLOAD_REGION: auto
+      LANGFUSE_S3_MEDIA_UPLOAD_ACCESS_KEY_ID: minio
+      LANGFUSE_S3_MEDIA_UPLOAD_SECRET_ACCESS_KEY: miniosecret
+      LANGFUSE_S3_MEDIA_UPLOAD_ENDPOINT: http://minio:9000
+      LANGFUSE_S3_MEDIA_UPLOAD_FORCE_PATH_STYLE: "true"
+      LANGFUSE_S3_MEDIA_UPLOAD_PREFIX: "media/"
+      REDIS_HOST: redis
+      REDIS_PORT: "6379"
+      REDIS_AUTH: cartwheel-dev-redis
+
+  langfuse-web:
+    image: langfuse/langfuse:3
+    restart: always
+    depends_on: *langfuse-depends-on
+    ports:
+      - "3000:3000"
+    environment:
+      <<: *langfuse-shared-env
+      # NEXTAUTH_URL must match the URL you open in the browser.
+      NEXTAUTH_URL: http://localhost:3000
+      NEXTAUTH_SECRET: cartwheel-dev-nextauth-secret
+      # Pre-provision the org, project, API keys, and login on first boot.
+      # The keys match .env.example.
+      LANGFUSE_INIT_ORG_ID: cartwheel
+      LANGFUSE_INIT_ORG_NAME: Cartwheel Course
+      LANGFUSE_INIT_PROJECT_ID: cartwheel-dev
+      LANGFUSE_INIT_PROJECT_NAME: Cartwheel Dev
+      LANGFUSE_INIT_PROJECT_PUBLIC_KEY: pk-lf-cartwheel-dev
+      LANGFUSE_INIT_PROJECT_SECRET_KEY: sk-lf-cartwheel-dev
+      LANGFUSE_INIT_USER_EMAIL: student@example.com
+      LANGFUSE_INIT_USER_NAME: Student
+      LANGFUSE_INIT_USER_PASSWORD: cartwheel-dev-pass
+
+  postgres:
+    image: postgres:16
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 3s
+      timeout: 3s
+      retries: 10
+    volumes:
+      - langfuse_postgres_data:/var/lib/postgresql/data
+
+  clickhouse:
+    image: clickhouse/clickhouse-server:24.8
+    restart: always
+    user: "101:101"
+    environment:
+      CLICKHOUSE_DB: default
+      CLICKHOUSE_USER: clickhouse
+      CLICKHOUSE_PASSWORD: clickhouse
+    ports:
+      - "127.0.0.1:8123:8123"
+      - "127.0.0.1:9002:9000"
+    healthcheck:
+      test: wget --no-verbose --tries=1 --spider http://localhost:8123/ping || exit 1
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 5s
+    volumes:
+      - langfuse_clickhouse_data:/var/lib/clickhouse
+      - langfuse_clickhouse_logs:/var/log/clickhouse-server
+
+  redis:
+    image: redis:7
+    restart: always
+    command: >
+      --requirepass cartwheel-dev-redis
+    healthcheck:
+      test: ["CMD", "redis-cli", "-a", "cartwheel-dev-redis", "ping"]
+      interval: 3s
+      timeout: 3s
+      retries: 10
+
+  minio:
+    # MinIO does not publish major-version tags; the official Langfuse
+    # compose also tracks latest. Pin a RELEASE.* tag here if you need
+    # stricter reproducibility.
+    image: minio/minio:latest
+    restart: always
+    entrypoint: sh
+    command: -c 'mkdir -p /data/langfuse && minio server --address ":9000" --console-address ":9001" /data'
+    environment:
+      MINIO_ROOT_USER: minio
+      MINIO_ROOT_PASSWORD: miniosecret
+    ports:
+      - "127.0.0.1:9090:9000"
+      - "127.0.0.1:9091:9001"
+    healthcheck:
+      test: ["CMD", "mc", "ready", "local"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 5s
+    volumes:
+      - langfuse_minio_data:/data
+
+volumes:
+  langfuse_postgres_data:
+    driver: local
+  langfuse_clickhouse_data:
+    driver: local
+  langfuse_clickhouse_logs:
+    driver: local
+  langfuse_minio_data:
+    driver: local
