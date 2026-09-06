@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Secrets. Never commit keys.
+.env
+
+# Generated world data. Recreate with: uv run python -m seed.generate
+data/cartwheel.db
+
+# Local conversation state and scenario/replay run outputs.
+.sessions.db
+scenarios/results/
+replay/results/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/

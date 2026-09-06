@@ -1,0 +1,60 @@
+# The Cartwheel facts sheet.
+#
+# Every numeric or rule-like claim in the help-center corpus comes from this
+# file. The LLM writes prose; code computes facts. seed/generate.py renders the
+# dev-scale policy docs from these constants, seed/validate.py checks every
+# numeric claim in every doc against them, and seed/eligibility.py computes the
+# refund_eligible flag on every order from them. Module 3 turns each of these
+# constants into a test assertion.
+#
+# The nine constants below are the ones the lectures, the criteria table, and
+# the demo orders depend on. Roughly 30 more constants of the same kind are
+# added during production (see the Module 1 outline, "To be filled in during
+# production").
+
+platform_name: Cartwheel
+
+# Returns are counted from the delivery date, not the purchase date.
+return_window_days: 30
+
+# Stores may override platform policy. An override must be visible in the
+# store's own policy doc. Stricter and looser overrides are both permitted,
+# and the store override takes precedence over the platform default.
+store_overrides:
+  allowed: true
+  must_be_visible_in_store_policy_doc: true
+  stricter_allowed: true
+  looser_allowed: true
+  precedence: store_over_platform
+
+# Refunds go back to the original payment method.
+refund_method: original_payment_method
+refund_processing_days_min: 5
+refund_processing_days_max: 10
+
+# Refunds at or below this amount auto-execute after the eligibility check.
+# Above it, the refund is queued for human approval.
+refund_auto_approve_threshold_usd: 100
+
+# Restocking fee: up to this percent, opened items only, and only if the
+# store opts in.
+restocking_fee_max_percent: 15
+restocking_fee_opened_items_only: true
+restocking_fee_requires_store_opt_in: true
+
+# Orders can be cancelled only before shipment.
+cancel_cutoff: before_shipment
+
+# Buyers can dispute a charge for this many days after delivery.
+dispute_window_days: 60
+
+# Merchant payouts: weekly, on Fridays, with processing time in business days.
+payout_schedule: weekly_friday
+payout_processing_business_days: 2
+
+# A human support agent responds to an escalation within this many hours.
+support_escalation_sla_hours: 24
+
+# Shipping constants used by the shipping policy doc and the seed script.
+shipping_handling_days_max: 3
+shipping_transit_days_max: 7

@@ -1,0 +1,3002 @@
+[
+  {
+    "trace_id": "store-0000",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0001",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0002",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0003",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0004",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0005",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0006",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0007",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0008",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0009",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0010",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0011",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0012",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0013",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0014",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0015",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0016",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0017",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0018",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0019",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0020",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0021",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0022",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0023",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0024",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0025",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0026",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0027",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0028",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0029",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0030",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0031",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0032",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0033",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0034",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0035",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0036",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0037",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0038",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0039",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0040",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0041",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0042",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0043",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0044",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0045",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0046",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0047",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0048",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0049",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0050",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0051",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0052",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0053",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0054",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0055",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0056",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0057",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0058",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0059",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0060",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0061",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0062",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0063",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0064",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0065",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0066",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0067",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0068",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0069",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0070",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0071",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0072",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0073",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0074",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0075",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0076",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0077",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0078",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0079",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0080",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0081",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0082",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0083",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0084",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0085",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0086",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0087",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0088",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0089",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0090",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0091",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0092",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0093",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0094",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0095",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0096",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0097",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0098",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0099",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0100",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0101",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0102",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0103",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0104",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0105",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0106",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0107",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0108",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0109",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0110",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0111",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0112",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0113",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0114",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0115",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0116",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0117",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0118",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0119",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0120",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0121",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0122",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0123",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0124",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0125",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0126",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0127",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0128",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0129",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0130",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0131",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0132",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0133",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0134",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0135",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0136",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0137",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0138",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0139",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0140",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0141",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0142",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0143",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0144",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0145",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0146",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0147",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0148",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0149",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0150",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0151",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0152",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0153",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0154",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0155",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0156",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0157",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0158",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0159",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0160",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0161",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0162",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0163",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0164",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0165",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0166",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0167",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0168",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0169",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0170",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0171",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0172",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0173",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0174",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0175",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0176",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0177",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0178",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0179",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0180",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0181",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0182",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0183",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0184",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0185",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0186",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0187",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0188",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0189",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0190",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0191",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0192",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0193",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0194",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0195",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0196",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0197",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0198",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0199",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0200",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0201",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0202",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0203",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0204",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0205",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0206",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0207",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0208",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0209",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0210",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0211",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0212",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0213",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0214",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0215",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0216",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0217",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0218",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0219",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0220",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0221",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0222",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0223",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0224",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0225",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0226",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0227",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0228",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0229",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0230",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0231",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0232",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0233",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0234",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0235",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0236",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0237",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0238",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0239",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0240",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0241",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0242",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0243",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0244",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0245",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0246",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0247",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0248",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0249",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0250",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0251",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0252",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0253",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0254",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0255",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0256",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0257",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0258",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0259",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0260",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0261",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0262",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0263",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0264",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0265",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0266",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0267",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0268",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0269",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0270",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0271",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0272",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0273",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0274",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0275",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0276",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0277",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0278",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0279",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0280",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0281",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0282",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0283",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0284",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0285",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0286",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0287",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0288",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0289",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0290",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0291",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0292",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0293",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0294",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0295",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0296",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0297",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0298",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0299",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0300",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0301",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0302",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0303",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0304",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0305",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0306",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0307",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0308",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0309",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0310",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0311",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0312",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0313",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0314",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0315",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0316",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0317",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0318",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0319",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0320",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0321",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0322",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0323",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0324",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0325",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0326",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0327",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0328",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0329",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0330",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0331",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0332",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0333",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0334",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0335",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0336",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0337",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0338",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0339",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0340",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0341",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0342",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0343",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0344",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0345",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0346",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0347",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0348",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0349",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0350",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0351",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0352",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0353",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0354",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0355",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0356",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0357",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0358",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0359",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0360",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0361",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0362",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0363",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0364",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0365",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0366",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0367",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0368",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0369",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0370",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0371",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0372",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0373",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0374",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0375",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0376",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0377",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0378",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0379",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0380",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0381",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0382",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0383",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0384",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0385",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0386",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0387",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0388",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0389",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0390",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0391",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0392",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0393",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0394",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0395",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0396",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0397",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0398",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0399",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0400",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0401",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0402",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0403",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0404",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0405",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0406",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0407",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0408",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0409",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0410",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0411",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0412",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0413",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0414",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0415",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0416",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0417",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0418",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0419",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0420",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0421",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0422",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0423",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0424",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0425",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0426",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0427",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0428",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0429",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0430",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0431",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0432",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0433",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0434",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0435",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0436",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0437",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0438",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0439",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0440",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0441",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0442",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0443",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0444",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0445",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0446",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0447",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0448",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0449",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0450",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0451",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0452",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0453",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0454",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0455",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0456",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0457",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0458",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0459",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0460",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0461",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0462",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0463",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0464",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0465",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0466",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0467",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0468",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0469",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0470",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0471",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0472",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0473",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0474",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0475",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0476",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0477",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0478",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0479",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0480",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0481",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0482",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0483",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0484",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0485",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0486",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0487",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0488",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0489",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0490",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0491",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0492",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0493",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0494",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0495",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0496",
+    "segments": {
+      "role": "merchant"
+    }
+  },
+  {
+    "trace_id": "store-0497",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0498",
+    "segments": {
+      "role": "shopper"
+    }
+  },
+  {
+    "trace_id": "store-0499",
+    "segments": {
+      "role": "shopper"
+    }
+  }
+]
